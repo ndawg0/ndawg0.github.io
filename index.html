@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Portfölj</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Min Portfölj</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Hem</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Om mig</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Kunskaper</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container text-center text-white">
+            <h1>Noel Ställborn</h1>
+            <p>Välkommen till min portfölj! Här kan du utforska mina kunskaper inom teknik och webbutveckling.</p>
+            <a href="#projects" class="btn btn-primary">Upptäck mina kunskaper</a>
+        </div>
+    </section>
+    
+
+    <section id="about" class="section">
+        <div class="container text-center">
+            <h2>Om mig</h2>
+            <p>Mitt namn är Noel Ställborn och jag är en målinriktad och kreativ person med ett skarpt öga för detaljer.
+                För närvarande studerar jag backendutveckling på Grit Academy. Min resa inom teknik började på
+                gymnasiet, där jag gick teknikprogrammet på Realgymnasiet i Linköping.</p>
+            <p>Min passion för kreativitet och problemlösning har jag delvis ärvt från min pappa, som är Art Director
+                och har skapat design som har verkat i decennier, och som har uppmärksammats både i Sverige och
+                internationellt.</p>
+            <p>Under min utbildning har jag byggt upp en solid förståelse för olika tekniska discipliner, inklusive
+                programmering, webbutveckling och nätverksteknik. Jag har haft förmånen att arbeta praktiskt med dessa
+                områden och är djupt passionerad över att lösa problem genom teknik.</p>
+            <p>Jag är målinriktad och ständigt driven att utvecklas och förbättras, vilket gör att jag alltid strävar
+                efter att nå nya höjder i mitt arbete.</p>
+            <p>Jag trivs med att utmana mig själv och ta mig an komplexa uppgifter som kräver både kreativitet och
+                teknisk noggrannhet. Jag ser fram emot att fortsätta min resa inom backendutveckling och bidra med mina
+                färdigheter för att skapa innovativa lösningar som gör skillnad.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container text-center">
+            <h2>Mina kunskaper</h2>
+            <p>Jag bygger en stark grund inom webbutveckling och lär mig nya teknologier hela tiden.</p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-box">
+                        <i class="bi bi-code-slash skill-icon"></i>
+                        <h4>HTML & CSS</h4>
+                        <p>Strukturerad och responsiv design för moderna webbsidor.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-box">
+                        <i class="bi bi-bootstrap skill-icon"></i>
+                        <h4>Bootstrap</h4>
+                        <p>Effektivt ramverk för att skapa stilrena och responsiva gränssnitt.</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="learning-text">Just nu utforskar jag JavaScript och backendutveckling för att skapa dynamiska
+                webbtjänster.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container text-center">
+            <h2>Kontakt</h2>
+            <p>Jag ser fram emot att höra från dig! Fyll gärna i formuläret nedan, så återkommer jag så snart som
+                möjligt.</p>
+            <form action="#" method="POST" class="contact-form">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Ditt namn</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Din e-postadress</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Ämne</label>
+                    <input type="text" class="form-control" id="subject" name="subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Meddelande</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Skicka meddelande</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center text-white">
+            <p>&copy; 2025 Noel Ställborn. Alla rättigheter förbehållna.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
